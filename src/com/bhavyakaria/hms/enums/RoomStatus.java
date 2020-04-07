@@ -1,7 +1,7 @@
 package com.bhavyakaria.hms.enums;
 
 public enum RoomStatus {
-    OPEN,
-    CLOSED,
+    AVAILABLE,
+    BOOKED,
     UNDER_MAINTENANCE
 }

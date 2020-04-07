@@ -5,12 +5,10 @@ import com.bhavyakaria.hms.enums.RoomStatus;
 public class Room {
     public int roomNumber;
     public RoomStatus status;
-    public boolean isAvailable;
 
     public Room(int roomNumber) {
         this.roomNumber = roomNumber;
-        this.status = RoomStatus.OPEN;
-        this.isAvailable = true;
+        this.status = RoomStatus.AVAILABLE;
     }
 
     public int getRoomNumber() {
@@ -29,11 +27,4 @@ public class Room {
         this.status = status;
     }
 
-    public boolean isAvailable() {
-        return isAvailable;
-    }
-
-    public void setAvailable(boolean available) {
-        isAvailable = available;
-    }
 }

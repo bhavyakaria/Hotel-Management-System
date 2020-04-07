@@ -1,6 +1,7 @@
 package com.bhavyakaria.hms.models;
 
 import com.bhavyakaria.hms.enums.FloorStatus;
+import com.bhavyakaria.hms.enums.RoomStatus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,8 +55,8 @@ public class Floor {
     public Room getAvailableRoom() {
         Room rm = null;
         for (Room room : roomList) {
-            if (room.isAvailable) {
-                room.setAvailable(false);
+            if (room.status.equals(RoomStatus.AVAILABLE)) {
+                room.status = RoomStatus.BOOKED;
                 rm = room;
                 break;
             }
@@ -73,7 +74,7 @@ public class Floor {
     public int getCountOfAvailableRooms() {
         int count = 0;
         for (Room room : roomList) {
-            if (room.isAvailable) {
+            if (room.status.equals(RoomStatus.AVAILABLE)) {
                 count += 1;
             }
         }
