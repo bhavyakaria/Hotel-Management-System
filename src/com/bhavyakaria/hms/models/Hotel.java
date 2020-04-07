@@ -1,7 +1,6 @@
-package com.bhavyakaria.hotel_management_system.models;
+package com.bhavyakaria.hms.models;
 
-import com.bhavyakaria.hotel_management_system.exceptions.BaseException;
-import com.bhavyakaria.hotel_management_system.exceptions.RoomUnavailableException;
+import com.bhavyakaria.hms.exceptions.RoomUnavailableException;
 
 import java.util.ArrayList;
 import java.util.List;

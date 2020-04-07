@@ -1,4 +1,4 @@
-package com.bhavyakaria.hotel_management_system.constants;
+package com.bhavyakaria.hms.constants;
 
 public class Constants {
 

@@ -1,7 +1,7 @@
-package com.bhavyakaria.hotel_management_system.services;
+package com.bhavyakaria.hms.services;
 
-import com.bhavyakaria.hotel_management_system.exceptions.BaseException;
-import com.bhavyakaria.hotel_management_system.models.*;
+import com.bhavyakaria.hms.exceptions.BaseException;
+import com.bhavyakaria.hms.models.*;
 
 import java.util.ArrayList;
 import java.util.List;

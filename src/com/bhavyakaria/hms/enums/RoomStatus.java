@@ -1,4 +1,4 @@
-package com.bhavyakaria.hotel_management_system.enums;
+package com.bhavyakaria.hms.enums;
 
 public enum RoomStatus {
     OPEN,

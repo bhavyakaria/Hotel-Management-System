@@ -1,6 +1,6 @@
-package com.bhavyakaria.hotel_management_system.models;
+package com.bhavyakaria.hms.models;
 
-import com.bhavyakaria.hotel_management_system.enums.BookingStatus;
+import com.bhavyakaria.hms.enums.BookingStatus;
 
 import java.util.Date;
 

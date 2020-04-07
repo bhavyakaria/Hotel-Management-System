@@ -1,8 +1,8 @@
-package com.bhavyakaria.hotel_management_system;
+package com.bhavyakaria.hms;
 
-import com.bhavyakaria.hotel_management_system.exceptions.BaseException;
-import com.bhavyakaria.hotel_management_system.models.User;
-import com.bhavyakaria.hotel_management_system.services.HotelBookingService;
+import com.bhavyakaria.hms.exceptions.BaseException;
+import com.bhavyakaria.hms.models.User;
+import com.bhavyakaria.hms.services.HotelBookingService;
 
 public class Main {
 

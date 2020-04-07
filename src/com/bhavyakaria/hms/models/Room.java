@@ -1,6 +1,6 @@
-package com.bhavyakaria.hotel_management_system.models;
+package com.bhavyakaria.hms.models;
 
-import com.bhavyakaria.hotel_management_system.enums.RoomStatus;
+import com.bhavyakaria.hms.enums.RoomStatus;
 
 public class Room {
     public int roomNumber;

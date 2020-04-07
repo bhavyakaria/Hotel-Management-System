@@ -1,4 +1,4 @@
-package com.bhavyakaria.hotel_management_system.models;
+package com.bhavyakaria.hms.models;
 
 public class User {
     public String firstName;

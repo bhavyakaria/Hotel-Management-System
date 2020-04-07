@@ -1,7 +1,6 @@
-package com.bhavyakaria.hotel_management_system.models;
+package com.bhavyakaria.hms.models;
 
-import com.bhavyakaria.hotel_management_system.enums.FloorStatus;
-import com.bhavyakaria.hotel_management_system.exceptions.BaseException;
+import com.bhavyakaria.hms.enums.FloorStatus;
 
 import java.util.ArrayList;
 import java.util.List;

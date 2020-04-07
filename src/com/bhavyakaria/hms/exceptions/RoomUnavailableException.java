@@ -1,4 +1,4 @@
-package com.bhavyakaria.hotel_management_system.exceptions;
+package com.bhavyakaria.hms.exceptions;
 
 public class RoomUnavailableException extends BaseException {
 

@@ -1,9 +1,8 @@
-package com.bhavyakaria.hotel_management_system.models;
+package com.bhavyakaria.hms.models;
 
-import com.bhavyakaria.hotel_management_system.constants.Constants;
-import com.bhavyakaria.hotel_management_system.enums.BuildingStatus;
-import com.bhavyakaria.hotel_management_system.exceptions.BaseException;
-import com.bhavyakaria.hotel_management_system.exceptions.RoomUnavailableException;
+import com.bhavyakaria.hms.constants.Constants;
+import com.bhavyakaria.hms.enums.BuildingStatus;
+import com.bhavyakaria.hms.exceptions.RoomUnavailableException;
 
 import java.util.ArrayList;
 import java.util.List;
